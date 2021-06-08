@@ -1,0 +1,65 @@
+* {
+    background-color: black;
+    text-decoration: none;
+    
+}
+.head{
+    display: flex;
+    color: whitesmoke;
+    align-content: row;
+    align-items: flex-end;
+    flex-direction: row;
+    margin: 10px;
+    padding : 10px;
+    font-size: 20pt;
+}
+.h:hover{
+    color: yellow;
+
+}
+
+.box{
+    margin: 40px;
+    padding-right :80px;
+    padding-left: 80px;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 1100px;
+    width: 1100px;
+    
+    background-color: crimson;
+    color: yellow;
+}
+
+.car{
+    margin :20px;
+}
+.btn{
+    text-align: center;
+    height: 3px;
+    
+    
+    color: tan;
+}
+.btn:hover{
+    color: sandybrown;
+}
+
+
+
+
+@media screen and (max-width : 600px){
+    .box {
+        background-color: seagreen;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .head{
+        flex-direction: column;
+    }
+    
+}

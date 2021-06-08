@@ -1,0 +1,18 @@
+*{
+    background-color:lightblue;
+}
+
+
+.button{
+    height: 40px;
+    width: 120px;
+    padding :20px;
+    margin:20px;
+    background-color: chocolate;
+    color: black;
+}
+
+#sike{
+    background-color: chocolate;
+    color: black;
+}
